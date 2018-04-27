@@ -1,0 +1,13 @@
+$text-color: #000;
+$main-font: 'Heebo';
+@import 'partials/reset';
+@import 'partials/main-font';
+@import 'partials/navbar';
+@import 'partials/search';
+@import 'partials/cat-menu';
+@import 'partials/page.cart';
+@import 'partials/page.cms';
+@import 'partials/page.home';
+@import 'partials/login-modal';
+@import 'partials/footer';
+@import 'partials/responsive';

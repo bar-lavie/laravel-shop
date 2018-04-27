@@ -1,0 +1,196 @@
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-header .nav-tabs {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.nav-tabs li {
+    width: 50%;
+    text-align: center;
+}
+
+.user-in-form {
+    max-width: 400px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.user-in-form form {
+    margin: 0px;
+}
+
+
+/****** Inputs ******/
+
+.user-in-form input {
+    margin-bottom: 10px;
+}
+
+.user-in-form .form-error {
+    border: 1px solid #00FFAF !important;
+}
+
+.user-in-form input[type="text"],
+.user-in-form input[type="tel"],
+.user-in-form input[type="password"] {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+
+/****** Show Password ******/
+
+.password-box {
+    position: relative;
+}
+
+.show-password {
+    width: 50px;
+    position: relative;
+}
+
+.show-password i {
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    top: 5px;
+    left: 13px;
+}
+
+.user-in-form textarea {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    outline: none;
+    font-size: 18px;
+    resize: none;
+    padding-right: 10px;
+}
+
+.user-in-form input[type="text"],
+.user-in-form input[type="tel"],
+.user-in-form input[type="password"]:focus,
+.user-in-form textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.user-in-form input[type=text]:focus,
+input[type="tel"]:focus,
+.user-in-form input[type="password"]:focus,
+textarea:focus {
+    background-color: #fff;
+}
+
+.user-in-form .mail_list {
+    top: 3px;
+    position: relative;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+    border: none;
+}
+
+.user-in-form input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    background: #000;
+}
+
+.user-in-form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.facebook-login {
+    background-color: #3b5998;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/****** Form Validation ******/
+
+.form-error {
+    background: #F07F73;
+    color: #ffffff;
+}
+
+.password-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%,
+    100% {
+        transform: none;
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #7ac142;
+    }
+}

@@ -1,0 +1,174 @@
+/****************************** Body & Structure *****************************/
+
+body {
+    direction: rtl;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 300;
+    color: #000;
+    max-width: 100%;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-classic {
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn-classic:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.btn-classic a {
+    color: #fff;
+}
+
+.btn-classic:focus {
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.page-wrap {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.modal-content {
+    z-index: 1050 !important;
+}
+
+.pos-rel {
+    position: relative;
+    z-index: 1001;
+}
+
+#sm-box {
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    z-index: 2000;
+}
+
+.go-to-cms {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 100000000;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5em
+}
+
+select {
+    font-family: $main-font;
+}
+
+option {
+    font-family: $main-font;
+}
+
+option:first-child {
+    font-family: $main-font;
+}
+
+input::-webkit-input-placeholder {
+    font-family: $main-font;
+}
+
+input::-moz-placeholder {
+    font-family: $main-font;
+}
+
+input:-ms-input-placeholder {
+    font-family: $main-font;
+}
+
+input:-moz-placeholder {
+    font-family: $main-font;
+}
+
+input .submit {
+    font-family: $main-font;
+}
+
+.stripe {
+    padding: 70px 0px;
+}
+
+.section {
+    margin: 90px 0;
+}

@@ -1,0 +1,63 @@
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/****************************** Site Navigation *****************************/
+
+.site-navigation {
+    ul {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    li {
+        list-style-type: none;
+        float: right;
+        margin-left: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .icon {
+        margin-left: 10px;
+    }
+}
+
+
+/****** Shop buttons ******/
+
+.circle-icon {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    &:hover {
+        background-color: #f9f9f9;
+    }
+}
+
+.mycart-amount,
+.wishlist-amount {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    border-radius: 100px;
+    text-align: center;
+    top: -2.5px;
+    right: -2.5px;
+    font-size: 10px;
+    z-index: 1002;
+}
+
+@media (max-width: 767px) {}

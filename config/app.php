@@ -145,7 +145,9 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Darryldecode\Cart\CartServiceProvider::class,
+        App\Providers\WishlistServiceProvider::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -154,9 +156,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Darryldecode\Cart\CartServiceProvider::class,
-        Darryldecode\Cart\WishlistServiceProvider::class,
-        Laravel\Socialite\SocialiteServiceProvider::class,
+
     ],
     /*
       |--------------------------------------------------------------------------
@@ -203,7 +203,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Cart' => Darryldecode\Cart\Facades\CartFacade::class,
-        'Wishlist' => Darryldecode\Cart\Facades\WishlistFacade::class,
+        'Wishlist' => App\Facades\WishlistFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     ],
 ];

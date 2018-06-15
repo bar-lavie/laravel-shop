@@ -1,4 +1,4 @@
-<?php declare(strict_types=1);
+<?php
 /*
  * This file is part of PHPUnit.
  *
@@ -821,7 +821,7 @@ class TestTest extends TestCase
         );
     }
 
-    public function testTwoCoversDefaultClassAnnoationsAreNotAllowed()
+    public function testTwoCoversDefaultClassAnnotationsAreNotAllowed()
     {
         $this->expectException(CodeCoverageException::class);
 
